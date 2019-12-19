@@ -23,8 +23,8 @@ public class contacto {
     public static ArrayList getCollection() {
         ArrayList<contacto> collection = new ArrayList<>();
         collection.add(new contacto("981999923", "Bichito","https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-3.jpg"));
-        collection.add(new contacto("9859913923", "Plaga","https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-7.jpg"));
-        collection.add(new contacto("981914213", "Libelula","https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-6.jpg"));
+        collection.add(new contacto("9859913923", "Plaga","https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg"));
+        collection.add(new contacto("981914213", "Libelula","https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-4.jpg"));
         return collection;}
 
 

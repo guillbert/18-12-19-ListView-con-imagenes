@@ -47,9 +47,9 @@ public class ContactoAdaptador extends ArrayAdapter<contacto> {
             holder = (ViewHolder) convertView.getTag();
         }
 
-        if ( rowItem.getSmallImage() != null ) {
-            holder.image.setImageUrl(rowItem.getSmallImage(), queue);
-        }
+        // ( rowItem.getSmallImage() != null ) {
+        //   holder.image.setImageUrl(rowItem.getSmallImage(), queue);
+       //}
         holder.phone.setText(rowItem.phone);
         holder.nickname.setText(rowItem.nickname);
         return convertView;
